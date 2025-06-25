@@ -1922,16 +1922,16 @@ button {
   position: relative;
   z-index: 1;
 }
-.ul-donations::before, .ul-donations::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  left: auto;
-  border-radius: 999px 0 0 999px;
-  background: url(../img/donations-bg-img.jpg) no-repeat center center/cover;
-  width: clamp(0px, 46.56vw, 886px);
-}
+/* .ul-donations::before, .ul-donations::after { */
+/*   content: ""; */
+/*   position: absolute; */
+/*   z-index: -1; */
+/*   inset: 0; */
+/*   left: auto; */
+/*   border-radius: 999px 0 0 999px; */
+/*   background: url(../img/donations-bg-img.jpg) no-repeat center center/cover; */
+/*   width: clamp(0px, 46.56vw, 886px); */
+/* } */
 @media screen and (max-width: 991px) {
   .ul-donations::before, .ul-donations::after {
     top: 20%;
